@@ -1,0 +1,14 @@
+form {
+	border: 1px solid #827E7E;
+	padding: 1.5em 0.8em;
+	width: 390px;
+}
+
+div > label {
+	display: inline-block;
+	width: 65px;
+}
+
+div {
+	margin-bottom: 0.5em;
+}

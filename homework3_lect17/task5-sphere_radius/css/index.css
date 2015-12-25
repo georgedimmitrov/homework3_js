@@ -1,0 +1,15 @@
+body {
+	padding: 20px;
+}
+
+label {
+	display: block;
+}
+
+main > div {
+	width: 200px;
+}
+
+button {
+	margin-top: 0.3em;
+}

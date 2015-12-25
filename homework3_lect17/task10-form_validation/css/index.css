@@ -1,0 +1,45 @@
+body {
+	width: 700px;
+	margin: 0px auto;
+}
+
+#container {
+	margin-top: 0.8em;
+	padding: 0.3em 1.5em;
+	background-color: #E7BEBE;
+}
+
+form > div > label {
+	width: 75px;
+	display: inline-block;
+	margin-bottom: 0.3em;
+}
+
+.shorterWidth {
+	width: 30px;
+}
+
+#errGen {
+	margin-left: 25px;
+}
+
+#btnDiv {
+	margin-top: 25px;
+}
+
+#btnDiv > button {
+	width: 100px;
+	border-radius: 3px;
+}
+
+.error {
+	font-style: italic;
+	font-size: 80%;
+	visibility: hidden;	
+}
+
+#additionalField {
+	display: block;
+	margin-left: 79px;
+	visibility: hidden;
+}

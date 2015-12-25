@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert rows to table</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+	<table id="tbl">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Brand</th>
+				<th>Year</th>
+				<th>Add new</th>
+				<th>Delete last</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td><input type="text" id="brandBox"/></td>
+				<td><input type="text" id="yearBox" /></td>
+				<td>
+					<input type="button" 
+					id="addRowButton" 
+					value="Add row" 
+					onclick="insRow()">
+				</td>
+				<td>
+					<input type="button"
+					id="deleteRowButton"
+					value="Delete row"
+					onclick="delRow(this)">
+				</td>
+			</tr>
+		</tbody>
+		
+	</table>
+
+	<!-- <button onclick="insRow()">Add row</button>
+	 -->
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

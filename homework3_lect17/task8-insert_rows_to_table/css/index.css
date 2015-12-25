@@ -1,0 +1,14 @@
+body {
+	width: 960px;
+	margin: 10px auto;
+}
+
+table {
+	border: 1px solid #cecece;
+	margin: 20px;
+	
+}
+
+th {
+	border-bottom: 1px solid #FFC5C5;
+}

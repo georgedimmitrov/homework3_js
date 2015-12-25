@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Easy mode gallery</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body onload="preloadImages()">
+	
+	<div id="container">
+
+		<div id="thumbs">
+			<img src="images/1s.jpg" 
+			alt="yoda" 
+			onmouseover="swapImage(0)"
+			onmouseout="hideDiv()">
+			
+			<img src="images/2s.jpg" 
+			alt="obiwan vs anakin" 
+			onmouseover="swapImage(1)"
+			onmouseout="hideDiv()">
+
+			<img src="images/3s.jpg" 
+			alt="darth maul" 
+			onmouseover="swapImage(2)"
+			onmouseout="hideDiv()"
+			onmouseout="hideDiv()">
+
+			<img src="images/4s.jpg" 
+			alt="obi wan" 
+			onmouseover="swapImage(3)"
+			onmouseout="hideDiv()">
+
+			<img src="images/5s.jpg" 
+			alt="r2d2" 
+			onmouseover="swapImage(4)"
+			onmouseout="hideDiv()">
+
+			<br>
+			<em>[ mouse over the thumbnails to see a larger picture ]</em>
+		</div>
+
+		<div id="image" class="hiddenAtStart">
+			<img src="images/6.jpg" alt="image of anakin" id="defaultImage">
+		</div>
+
+	</div> <!-- container -->
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>

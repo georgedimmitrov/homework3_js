@@ -1,0 +1,23 @@
+body {
+	width: 800px;
+	margin: 10px auto;
+
+	padding: 0.8em;
+	background-color: #CFC8C8;
+}
+
+#container {
+	text-align: center;
+}
+
+#thumbs > img {
+	border: 3px solid #FCDEDE;
+}
+
+#image > img {
+	border: 3px solid #FCDEDE;
+}
+
+.hiddenAtStart {
+	display: none;
+}
